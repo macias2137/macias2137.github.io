@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana;
+}
+
+header {
+    background-color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+/*.logo img {
+    height: 2rem;
+}*/
+
+header h3 {
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+}
+
+.menu {
+    display: flex;
+    padding-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 360px) {
+    header h3 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    header .menu img {
+        display: none;
+    }
+}
+
+header a {
+    margin-right: 1rem;
+}
+
+.learn-section {
+    display: flex;
+    
+}
